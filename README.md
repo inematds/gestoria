@@ -2,6 +2,8 @@
 
 Método, plano de formação INEMA e laboratório web de Gestão de IA. A unidade de trabalho é **um processo empresarial com resultado mensurável**.
 
+**[Abrir ferramenta](https://inematds.github.io/gestoria/)** · **[Guia de uso](https://inematds.github.io/gestoria/guia/)** · **[Plano do curso](https://inematds.github.io/curso-gestao-ia/)**
+
 ## Abrir a ferramenta
 
 Requer Node.js 22.12+ ou 24+ e npm.
@@ -18,7 +20,7 @@ npm run build
 npm run preview
 ```
 
-O diretório `dist/` é a saída de produção. A configuração atual assume hospedagem na raiz do domínio. Para publicar em subpasta, configurar `base` no Vite e validar os assets; nenhum deploy foi feito nesta entrega.
+O diretório `dist/` é a saída de produção. `npm run build` gera a versão para a raiz de um domínio. `npm run build:pages` configura a base `/gestoria/` e inclui guia e capa. O workflow `.github/workflows/pages.yml` publica esse pacote no GitHub Pages a cada push em `main`.
 
 ## Documentos
 
