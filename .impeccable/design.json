@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-10T15:25:41.817173+00:00",
+  "title": "Design System: Gestoria",
+  "extensions": {
+    "shadows": [
+      {
+        "name": "notice",
+        "value": "0 8px 30px #102e3826",
+        "purpose": "Aviso temporário sobre a página."
+      },
+      {
+        "name": "dialog",
+        "value": "0 20px 70px #0b292d40",
+        "purpose": "Diálogo modal."
+      }
+    ],
+    "motion": [
+      {
+        "name": "dialog-in",
+        "value": "0.18s ease-out; opacity: .6 → 1; translateY: 6px → 0",
+        "purpose": "Somente quando prefers-reduced-motion: no-preference."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1550px"
+      },
+      {
+        "name": "compact-max",
+        "value": "1150px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Salvar processo",
+      "kind": "button",
+      "description": "Variante primary observada no laboratório.",
+      "html": "<button class=\"ds-button\" type=\"button\">Salvar processo</button>",
+      "css": ".ds-button{font:600 12px/1.2 system-ui,sans-serif;min-height:42px;padding:11px 16px;display:inline-flex;align-items:center;justify-content:center;border:1px solid transparent;border-radius:7px;cursor:pointer}.ds-button:focus-visible{outline:3px solid #507dce;outline-offset:4px}.ds-button:disabled{opacity:.55;cursor:not-allowed}.ds-button{background:var(--green,#173f38);color:#fff}.ds-button:hover{background:#285b4d}"
+    },
+    {
+      "name": "Cancelar",
+      "kind": "button",
+      "description": "Variante secondary observada no laboratório.",
+      "html": "<button class=\"ds-button\" type=\"button\">Cancelar</button>",
+      "css": ".ds-button{font:600 12px/1.2 system-ui,sans-serif;min-height:42px;padding:11px 16px;display:inline-flex;align-items:center;justify-content:center;border:1px solid transparent;border-radius:7px;cursor:pointer}.ds-button:focus-visible{outline:3px solid #507dce;outline-offset:4px}.ds-button:disabled{opacity:.55;cursor:not-allowed}.ds-button{background:#fff;color:#243d38;border-color:#cddbd5}.ds-button:hover{background:#eef3f0}"
+    },
+    {
+      "name": "Restaurar demonstração",
+      "kind": "button",
+      "description": "Variante danger observada no laboratório.",
+      "html": "<button class=\"ds-button\" type=\"button\">Restaurar demonstração</button>",
+      "css": ".ds-button{font:600 12px/1.2 system-ui,sans-serif;min-height:42px;padding:11px 16px;display:inline-flex;align-items:center;justify-content:center;border:1px solid transparent;border-radius:7px;cursor:pointer}.ds-button:focus-visible{outline:3px solid #507dce;outline-offset:4px}.ds-button:disabled{opacity:.55;cursor:not-allowed}.ds-button{background:#fff;color:#9b3535;border-color:#dfc8c8}.ds-button:hover{background:#fff1f1}"
+    },
+    {
+      "name": "Ação textual",
+      "kind": "button",
+      "description": "Abrir detalhe ou revisar caso.",
+      "html": "<button class=\"ds-text\" type=\"button\">Revisar caso</button>",
+      "css": ".ds-text{font:550 12px system-ui,sans-serif;color:#275c4b;background:none;border:0;padding:8px 0;cursor:pointer}.ds-text:hover{text-decoration:underline}.ds-text:focus-visible{outline:3px solid #507dce;outline-offset:4px}"
+    },
+    {
+      "name": "Campo de texto",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Rótulo visível e entrada nativa de formulário.",
+      "html": "<label class=\"ds-field\">Responsável humano<input name=\"owner\" required /></label>",
+      "css": ".ds-field{display:flex;flex-direction:column;gap:9px;font:500 12px system-ui,sans-serif;color:#466056}.ds-field input{font:400 13px system-ui,sans-serif;min-height:42px;padding:11px 12px;border:1px solid #cbd8d0;border-radius:6px;background:#fff;color:#253e34}.ds-field input:focus-visible{outline:3px solid #507dce;outline-offset:4px}"
+    },
+    {
+      "name": "Navegação ativa",
+      "kind": "nav",
+      "refersTo": "navigation-active",
+      "description": "Link do destino atual, com indicador acessível.",
+      "html": "<nav aria-label=\"Exemplo de navegação\"><a class=\"ds-nav\" href=\"#overview\" aria-current=\"page\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"14\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"14\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/></svg>Visão geral</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:12px;min-height:45px;padding:11px 12px;border-radius:7px;font:500 13px system-ui,sans-serif;text-decoration:none;color:#526760}.ds-nav:hover{background:#f1f5f3}.ds-nav[aria-current=page]{background:var(--green,#173f38);color:#fff}.ds-nav:focus-visible{outline:3px solid #507dce;outline-offset:4px}"
+    },
+    {
+      "name": "Badge de revisão",
+      "kind": "chip",
+      "refersTo": "badge-review",
+      "description": "Estado textual informativo, sem ação de clique.",
+      "html": "<span class=\"ds-badge\">Revisão humana</span>",
+      "css": ".ds-badge{display:inline-flex;align-items:center;border-radius:5px;padding:5px 8px;background:#f8edd4;color:#7e5a1a;font:550 10px/1.4 system-ui,sans-serif;white-space:nowrap}"
+    },
+    {
+      "name": "Painel de decisões",
+      "kind": "card",
+      "refersTo": "decision-panel",
+      "description": "Superfície plana que reúne pendências humanas.",
+      "html": "<aside class=\"ds-panel\"><h2>Precisam de você</h2><p>Nenhuma decisão pendente.</p></aside>",
+      "css": ".ds-panel{background:var(--surface,#fff);border:1px solid var(--line,#dce5e1);border-radius:var(--radius,12px);padding:24px;color:#243d38;font-family:system-ui,sans-serif}.ds-panel h2{font-size:17px;font-weight:600;margin:0 0 16px;letter-spacing:-.015em}.ds-panel p{font-size:12px;line-height:1.65;color:var(--muted,#60736e);margin:0}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Sala de operações diurna",
+    "overview": "A metáfora vem do contrato visual já presente em `index.html`: verde profundo, branco frio, linhas claras e tabelas legíveis. A interface acompanha processos, pendências humanas e registros com densidade moderada, tipografia de sistema e contraste entre o quadro de processo e as superfícies claras.\n\nEste documento registra a implementação de `src/style.css` e `src/main.ts`; não constitui aprovação de uma identidade institucional. Gestoria é um nome provisório. A referência a INEMA aparece no laboratório e na proposta de formação, mas logotipo e identidade definitiva continuam em aberto conforme `PRODUCT.md`. A interface explicita simulação, dados fictícios e armazenamento local; os controles operam sobre esses registros e não representam uma IA conectada.",
+    "keyCharacteristics": [
+      "Superfícies claras com divisórias finas e verde profundo para ação e orientação.",
+      "Números legíveis, rótulos concretos em pt-BR e estados descritos por texto.",
+      "Navegação persistente no desktop e faixa horizontal rolável no celular.",
+      "Formulários e decisões em diálogo, com retorno de sucesso ou erro."
+    ],
+    "rules": [
+      {
+        "name": "Estado explícito",
+        "body": "Preserve o texto do estado ao lado de sua cor: “Ativo”, “Pausado”, “Revisão humana”, “Aprovado” e “Devolvido”.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "**Do** manter a indicação de laboratório e simulação nas superfícies operacionais.",
+      "**Do** conservar rótulos textuais para estados e um foco visível nos controles.",
+      "**Do** usar as superfícies, bordas e raios observados para preservar a continuidade entre páginas.",
+      "**Do** apresentar responsável humano, justificativa e versão quando fizerem parte da decisão.",
+      "**Do** preservar rolagem contida nas tabelas e empilhamento de formulários no celular."
+    ],
+    "donts": [
+      "**Don't** apresentar o nome ou símbolo provisório como identidade institucional aprovada.",
+      "**Don't** chamar uma simulação local de execução real de IA ou ação externa concluída.",
+      "**Don't** atribuir significado de estado apenas à cor.",
+      "**Don't** representar ausência de observações como porcentagem calculada."
+    ]
+  }
+}
