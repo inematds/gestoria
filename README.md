@@ -1,5 +1,7 @@
 # Gestoria
 
+**🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
+
 Método, plano de formação INEMA e laboratório web de Gestão de IA. A unidade de trabalho é **um processo empresarial com resultado mensurável**.
 
 **[Abrir ferramenta](https://inematds.github.io/gestoria/)** · **[Guia de uso](https://inematds.github.io/gestoria/guia/)** · **[Plano do curso](https://inematds.github.io/curso-gestao-ia/)**

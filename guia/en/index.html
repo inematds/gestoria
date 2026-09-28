@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 
 <!-- Guia Gestoria, baseado no template INEMA projetos-landing-guia. -->
-<html lang="pt-BR">
+<html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>Gestoria — Gestão de processos, humanos e agentes de IA</title>
+<title>Gestoria — Management of processes, people, and AI agents</title>
 <link href="https://inematds.github.io/gestoria/guia/" rel="canonical"/>
 <meta content="https://inematds.github.io/gestoria/capa/capa.png" property="og:image"/>
-<meta content="Laboratório de Gestão de IA: processos, cargos digitais, autonomia, decisões humanas, avaliações e melhoria contínua. MVP local com simulações identificadas." name="description"/>
+<meta content="AI Management Lab: processes, digital roles, autonomy, human decisions, evaluations, and continuous improvement. Local MVP with clearly identified simulations." name="description"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet"/>
@@ -102,7 +102,7 @@
   @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 <link href="https://inematds.github.io/gestoria/guia/" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/gestoria/guia/en/" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/gestoria/guia/es/" hreflang="es" rel="alternate"/></head>
-<body><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="./" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">PT</a><a href="en/" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="es/" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
+<body><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="../" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="./" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">EN</a><a href="../es/" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
 <nav><div class="wrap">
 <a class="brand" href="#top"><span class="emoji">🧭</span> Gestoria</a>
 <span class="sep">|</span>
@@ -112,12 +112,12 @@
 <a class="pro" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
 </span>
 <div class="links">
-<a class="sec" href="#oque">O que é</a>
-<a class="sec" href="#fluxo">Como funciona</a>
-<a class="sec" href="#guia">Guia de uso</a>
-<a class="sec" href="#exemplos">Exemplos</a>
+<a class="sec" href="#oque">What it is</a>
+<a class="sec" href="#fluxo">How it works</a>
+<a class="sec" href="#guia">User guide</a>
+<a class="sec" href="#exemplos">Examples</a>
 <a class="sec" href="#roadmap">Roadmap</a>
-<button aria-label="Alternar tema" class="tgl" id="themeToggle" title="Alternar tema">🌙</button>
+<button aria-label="Switch theme" class="tgl" id="themeToggle" title="Switch theme">🌙</button>
 <a class="btn" href="https://github.com/inematds/gestoria" rel="noopener" target="_blank">GitHub</a>
 </div>
 </div></nav>
@@ -125,46 +125,46 @@
 <div class="glow"></div>
 <div class="wrap">
 <div>
-<span class="chip">Ferramenta de gestão · MVP com simulação</span>
-<h1>Um processo real.<br/>Uma operação <span class="amb">sob gestão.</span></h1>
-<p class="lead">Organize cargos digitais, responsabilidades e autonomia. Acompanhe decisões, avaliações e melhorias em um laboratório que funciona no seu navegador.</p>
+<span class="chip">Management tool · MVP with simulation</span>
+<h1>A real process.<br/>One operation <span class="amb">under management.</span></h1>
+<p class="lead">Organize digital roles, responsibilities, and autonomy. Track decisions, evaluations, and improvements in a lab that runs in your browser.</p>
 <div class="cta">
-<a class="btn" href="../">Abrir ferramenta</a>
-<a class="btn ghost" href="#guia">Ler o passo a passo</a>
+<a class="btn" href="../">Open tool</a>
+<a class="btn ghost" href="#guia">Read the step-by-step guide</a>
 </div>
 </div>
-<figure><img alt="Ilustração de uma gestora coordenando assistentes robóticos; representação conceitual gerada por IA." src="assets/hero.png"/></figure>
+<figure><img alt="Illustration of a manager coordinating robotic assistants; an AI-generated conceptual depiction." src="../assets/hero.png"/></figure>
 </div>
 </header>
 <section id="oque"><div class="wrap">
-<span class="chip">O que é</span>
-<h2>Gerencie o trabalho, do processo à evidência.</h2>
-<p class="sub">A primeira versão funciona com dados locais e cenários fictícios. Não executa modelos nem acessa CRM, ERP ou e-mail. As integrações reais têm um plano técnico separado.</p>
+<span class="chip">What it is</span>
+<h2>Manage work, from process to evidence.</h2>
+<p class="sub">The first version works with local data and fictional scenarios. It does not run models or access CRM, ERP, or email. Real integrations have a separate technical plan.</p>
 <div class="grid g3">
-<div class="card"><h3>🧭 Processos e cargos</h3><p>Defina objetivo, dono humano, etapas e meta. Dê a cada agente uma missão, entradas, entregas e limites.</p></div>
-<div class="card"><h3>🧭 Autonomia e revisão</h3><p>Simule situações normais e exceções. Registre decisões humanas e consulte os critérios de promoção de cada versão.</p></div>
-<div class="card"><h3>🧭 Evidência e melhoria</h3><p>Compare esperado e produzido, acompanhe indicadores e documente experimentos no ciclo LOOP-R.</p></div>
+<div class="card"><h3>🧭 Processes and roles</h3><p>Define an objective, a human owner, steps, and a target. Give each agent a mission, inputs, deliverables, and limits.</p></div>
+<div class="card"><h3>🧭 Autonomy and review</h3><p>Simulate normal situations and exceptions. Record human decisions and check the promotion criteria for each version.</p></div>
+<div class="card"><h3>🧭 Evidence and improvement</h3><p>Compare expected and produced results, track metrics, and document experiments in the LOOP-R cycle.</p></div>
 </div>
 </div></section>
 <section id="fluxo"><div class="wrap">
-<span class="chip">Como funciona</span>
-<h2>Uma operação com responsabilidade explícita.</h2>
-<p class="sub">Comece com um único processo. O supervisor e as integrações fazem parte da arquitetura futura; o laboratório já permite desenhar e praticar a gestão.</p>
-<div class="flow"><span>Processo</span><span class="arr">→</span><span>Cargo digital</span><span class="arr">→</span><span>Autonomia</span><span class="arr">→</span><span>Revisão</span><span class="arr">→</span><span>Avaliação</span><span class="arr">→</span><span>Melhoria</span></div>
+<span class="chip">How it works</span>
+<h2>An operation with clear accountability.</h2>
+<p class="sub">Start with a single process. The supervisor and integrations are part of the future architecture; the lab already lets you design and practice management.</p>
+<div class="flow"><span>Process</span><span class="arr">→</span><span>Digital role</span><span class="arr">→</span><span>Autonomy</span><span class="arr">→</span><span>Review</span><span class="arr">→</span><span>Evaluation</span><span class="arr">→</span><span>Improvement</span></div>
 </div></section>
-<section id="pre"><div class="wrap"><span class="chip">Pré-requisitos</span><h2>Abra no navegador ou execute no seu computador.</h2><p class="sub">Para experimentar a versão publicada, basta um navegador moderno. Para editar o código localmente, use Git, Node.js 22.12+ ou 24+ e npm.</p><div class="grid g2"><div class="card"><h3>Experimentar online</h3><p>Abra a ferramenta. Os dados ficam neste navegador e nesta origem; exporte uma cópia JSON para guardar seu trabalho.</p><p><a href="../">Abrir o laboratório Gestoria</a></p></div><div class="card"><h3>Editar ou executar localmente</h3><pre>node --version
+<section id="pre"><div class="wrap"><span class="chip">Prerequisites</span><h2>Open it in your browser or run it on your computer.</h2><p class="sub">To try the published version, all you need is a modern browser. To edit the code locally, use Git, Node.js 22.12+ or 24+, and npm.</p><div class="grid g2"><div class="card"><h3>Try online</h3><p>Open the tool. Data stays in this browser and on this origin; export a JSON copy to save your work.</p><p><a href="../">Open the Gestoria lab</a></p></div><div class="card"><h3>Edit or run locally</h3><pre>node --version
 npm --version
 git --version</pre></div></div></div></section>
-<section id="guia"><div class="wrap"><span class="chip">Guia de uso</span><h2>Do primeiro processo à melhoria documentada.</h2><p class="sub">O exemplo de qualificação comercial é fictício. Use-o para conhecer o fluxo e depois cadastre o seu recorte com dados anonimizados.</p><div class="step"><div class="b">1</div><div><h3>Abrir a versão publicada</h3><p>Use o botão “Abrir ferramenta”. Para rodar uma cópia local, execute:</p><pre>git clone https://github.com/inematds/gestoria.git
+<section id="guia"><div class="wrap"><span class="chip">User guide</span><h2>From the first process to documented improvement.</h2><p class="sub">The sales qualification example is fictional. Use it to learn the workflow, then add your own scope using anonymized data.</p><div class="step"><div class="b">1</div><div><h3>Open the published version</h3><p>Use the “Open tool” button. To run a local copy, execute:</p><pre>git clone https://github.com/inematds/gestoria.git
 cd gestoria
 npm install
-npm run dev</pre></div></div><div class="step"><div class="b">2</div><div><h3>Mapear o processo</h3><p>Em Processos, crie uma operação com objetivo, responsável, etapas, volume, tempo atual e meta. Comece por um recorte, como preparar a qualificação comercial.</p></div></div><div class="step"><div class="b">3</div><div><h3>Criar o cargo digital</h3><p>Em Força de trabalho, registre missão, entradas, saída, responsável e o que o agente pode e não pode fazer. Ferramentas, modelo e Skills são metadados planejados nesta versão.</p></div></div><div class="step"><div class="b">4</div><div><h3>Simular e revisar</h3><p>Na Visão geral, escolha um processo e simule uma rotina, dados conflitantes ou uma solicitação fora da política. Em Decisões humanas, aprove ou devolva com justificativa.</p></div></div><div class="step"><div class="b">5</div><div><h3>Avaliar a versão</h3><p>Registre resultado esperado, resultado produzido e classificação humana. Consulte a ficha do agente: a promoção didática exige 100 casos da versão atual, meta atingida, ausência de erro crítico e pendências resolvidas.</p></div></div><div class="step"><div class="b">6</div><div><h3>Fechar o ciclo de melhoria</h3><p>Em Melhoria contínua, registre problema, hipótese e teste. Para validar e promover um experimento, acrescente evidências. A alteração do agente cria uma nova versão e exige nova avaliação.</p></div></div><div class="step"><div class="b">7</div><div><h3>Guardar e recuperar o trabalho</h3><p>Em Dados do laboratório, exporte a cópia JSON. Uma importação substitui os registros atuais após confirmação. Não há conta nem sincronização entre dispositivos.</p></div></div></div></section>
-<section id="exemplos"><div class="wrap"><h2>A ferramenta em funcionamento.</h2><p class="sub">Captura real do aplicativo com os dados fictícios iniciais. Os indicadores são calculados a partir dos registros do laboratório.</p><div class="ex"><figure><img alt="Visão geral do Gestoria: indicadores calculados, processo comercial e fila de decisões humanas." loading="lazy" src="assets/laboratorio.png"/><figcaption>Estado inicial do laboratório; pessoas, empresas e valores são exemplos fictícios.</figcaption></figure><div><h3>Como ler os indicadores</h3><p>Uma aprovação humana aumenta os casos concluídos, mas não o trabalho autônomo. Casos pendentes e devolvidos aparecem separados.</p><p>Custo inclui todas as tentativas. As avaliações contam apenas para a versão atual do agente.</p><h3>O curso que acompanha o método</h3><p>A proposta tem dez módulos e um projeto aplicado. O plano já está disponível; as aulas estão em desenvolvimento.</p><a class="btn ghost" href="https://inematds.github.io/curso-gestao-ia/">Conhecer o plano do curso</a></div></div></div></section>
-<section id="roadmap"><div class="wrap"><h2>Da simulação ao piloto empresarial.</h2><p class="sub">A evolução é guiada por evidências. O que está disponível hoje é o laboratório; as próximas fases precisam de sistemas e dados autorizados.</p><div class="phase"><div class="tag">Disponível</div><div class="d"><strong>Laboratório de gestão</strong><span>Processos, cargos, simulações, decisões, avaliações, promoção didática, LOOP-R e exportação.</span></div></div><div class="phase"><div class="tag">Próxima fase</div><div class="d"><strong>Piloto integrado</strong><span>Autenticação, banco de dados, um modelo e CRM em leitura, preparando entregas para revisão humana.</span></div></div><div class="phase"><div class="tag">Evolução</div><div class="d"><strong>Operação controlada</strong><span>Políticas no servidor, ações restritas, aprovações vinculadas ao conteúdo, filas e reversão.</span></div></div><div class="phase"><div class="tag">Depois</div><div class="d"><strong>Equipe e portfólio</strong><span>Supervisão multiagente e vários processos quando houver ganho comprovado frente à solução simples.</span></div></div></div></section>
+npm run dev</pre></div></div><div class="step"><div class="b">2</div><div><h3>Map the process</h3><p>In Processes, create an operation with an objective, owner, steps, volume, current time, and target. Start with a narrow scope, such as preparing sales qualification.</p></div></div><div class="step"><div class="b">3</div><div><h3>Create the digital role</h3><p>In Workforce, record the mission, inputs, output, owner, and what the agent can and cannot do. Tools, model, and Skills are metadata planned for this version.</p></div></div><div class="step"><div class="b">4</div><div><h3>Simulate and review</h3><p>In Overview, choose a process and simulate a routine, conflicting data, or a request outside the policy. In Human Decisions, approve it or send it back with a reason.</p></div></div><div class="step"><div class="b">5</div><div><h3>Evaluate the version</h3><p>Record the expected result, the result produced, and the human classification. Check the agent profile: educational promotion requires 100 cases from the current version, the target met, no critical errors, and all pending items resolved.</p></div></div><div class="step"><div class="b">6</div><div><h3>Close the improvement loop</h3><p>In Continuous Improvement, record the problem, hypothesis, and test. Add evidence to validate and promote an experiment. Changing the agent creates a new version and requires a new evaluation.</p></div></div><div class="step"><div class="b">7</div><div><h3>Save and retrieve your work</h3><p>In Lab Data, export the JSON copy. Importing replaces the current records after confirmation. There is no account or syncing between devices.</p></div></div></div></section>
+<section id="exemplos"><div class="wrap"><h2>The working tool.</h2><p class="sub">Real app capture with the initial fictional data. Metrics are calculated from the lab records.</p><div class="ex"><figure><img alt="Gestoria overview: calculated indicators, sales process, and human decision queue." loading="lazy" src="../assets/laboratorio.png"/><figcaption>Initial state of the lab; people, companies, and amounts are fictional examples.</figcaption></figure><div><h3>How to read the metrics</h3><p>A human approval increases the number of completed cases, but not the autonomous work. Pending and returned cases are shown separately.</p><p>Cost includes all attempts. Evaluations count only for the agent’s current version.</p><h3>The course that accompanies the method</h3><p>The proposal includes ten modules and an applied project. The plan is available now; lessons are in development.</p><a class="btn ghost" href="https://inematds.github.io/curso-gestao-ia/">View the course plan</a></div></div></div></section>
+<section id="roadmap"><div class="wrap"><h2>From simulation to enterprise pilot.</h2><p class="sub">Progress is guided by evidence. What’s available today is the lab; future phases require authorized systems and data.</p><div class="phase"><div class="tag">Available</div><div class="d"><strong>Management lab</strong><span>Processes, roles, simulations, decisions, evaluations, educational promotion, LOOP-R, and export.</span></div></div><div class="phase"><div class="tag">Next phase</div><div class="d"><strong>Integrated pilot</strong><span>Authentication, database, one model, and read-only CRM, preparing deliverables for human review.</span></div></div><div class="phase"><div class="tag">Progress</div><div class="d"><strong>Controlled operations</strong><span>Server-side policies, restricted actions, approvals linked to content, queues, and rollback.</span></div></div><div class="phase"><div class="tag">After</div><div class="d"><strong>Team and portfolio</strong><span>Multi-agent supervision and multiple processes when there is a proven benefit over the simple solution.</span></div></div></div></section>
 <footer>
 <div class="wrap">
-<div class="pill">TypeScript</div><div class="pill">Vite</div><div class="pill">Armazenamento local</div>
-<p style="margin-top:18px">Gestoria · MVP didático · sem execução real de IA ·
+<div class="pill">TypeScript</div><div class="pill">Vite</div><div class="pill">Local storage</div>
+<p style="margin-top:18px">Gestoria · educational MVP · no real AI execution ·
       <a href="https://github.com/inematds/gestoria">inematds/gestoria</a> ·
       <a href="https://inema.club">INEMA.CLUB</a></p>
 </div>
