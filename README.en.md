@@ -6,6 +6,8 @@ INEMA method, training plan, and web lab for AI Management. The unit of work is 
 
 **[Open tool](https://inematds.github.io/gestoria/)** · **[User guide](https://inematds.github.io/gestoria/guia/en/)** · **[Course plan](https://inematds.github.io/curso-gestao-ia/)**
 
+🎬 Video: https://www.youtube.com/watch?v=EtBGK2Hgz9E
+
 ## Open the tool
 
 Requires Node.js 22.12+ or 24+ and npm.

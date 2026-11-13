@@ -6,6 +6,8 @@ Método, plano de formação INEMA e laboratório web de Gestão de IA. A unidad
 
 **[Abrir ferramenta](https://inematds.github.io/gestoria/)** · **[Guia de uso](https://inematds.github.io/gestoria/guia/)** · **[Plano do curso](https://inematds.github.io/curso-gestao-ia/)**
 
+🎬 Vídeo: https://www.youtube.com/watch?v=EtBGK2Hgz9E
+
 ## Abrir a ferramenta
 
 Requer Node.js 22.12+ ou 24+ e npm.
